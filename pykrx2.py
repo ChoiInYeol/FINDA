@@ -20,7 +20,7 @@ def get_yearly_fundamentals_by_ticker(year, ticker):
     return None
 
 def process_market_data(start_year, end_year, market_type):
-    """�도별로 데이터를 처리하고 개별 저장합니다."""
+    """연도별로 데이터를 처리하고 개별 저장합니다."""
     for year in tqdm(range(start_year, end_year + 1), desc=f"처리 연도"):
         print(f"\n{year}년 {market_type} 데이터 처리 중...")
         cap_file = f"Data/ValueUp/marketcap/cap_{year}.csv"
