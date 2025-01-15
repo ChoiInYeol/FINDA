@@ -176,7 +176,7 @@ def fourth_screening(year, third_selected):
 
 def main():
     results = {}
-    for year in range(2020, 2025):  # 2020-2023년
+    for year in range(2020, 2024):  # 2020-2023년
         print(f"\n{year}년 Value-Up 지수 구성종목 선정 시작")
         
         # 1차 선정
